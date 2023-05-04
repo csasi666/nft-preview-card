@@ -1,0 +1,169 @@
+
+:root {
+    --softblue-color: hsl(215, 51%, 70%);
+    --cyan-color: hsl(178, 100%, 50%);
+    --main-bg-color: hsl(217, 54%, 11%);
+    --card-bg-color: hsl(216, 50%, 16%);
+    --line-color: hsl(215, 32%, 27%);
+    --white: #fff;
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: var(--main-bg-color);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 30rem;
+    height: 52rem;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--card-bg-color);
+    border-radius: 1.5rem;
+    padding: 1.8rem;
+}
+
+.figure {
+    background-color: black;
+    border-radius: 2rem;
+    height: 30rem;
+}
+
+.figure-a {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.figure-b {
+    width: 30rem;
+    height: 29.5rem;
+    border-radius: 1rem;
+    background-color: var(--cyan-color);
+    position: absolute;
+    margin: 0 auto 0 auto;
+    top: 11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ease;
+    opacity: 0;
+}
+
+h1 {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.nft-details p {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: var(--softblue-color);
+}
+
+.ethtym {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.svg-icon {
+    position: relative;
+    top: 0.3rem;
+    padding-right: 0.2rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--cyan-color);
+}
+
+.ethtym p {
+    font-size: 1.4rem;
+    color: var(--softblue-color);
+}
+
+hr {
+    color: var(--line-color);
+    border-bottom: none;
+    opacity: 50%;
+}
+
+.crtby {
+    display: flex;
+    gap: 1rem;
+}
+
+.crtby img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 0.1rem solid white;
+    border-radius: 50%;
+    margin-top: 1rem ;
+}
+
+.crtby p {
+    font-size: 1.4rem;
+    color: var(--softblue-color);
+}
+
+span {
+    color: var(--white);
+}
+
+h1:hover, span:hover {
+    color: var(--cyan-color);
+    cursor: pointer;
+}
+
+.figure-b:hover{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.attribution { 
+    font-size: 1.1rem; 
+    text-align: center; 
+    color: var(--white);
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
