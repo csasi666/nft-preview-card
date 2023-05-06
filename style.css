@@ -45,7 +45,7 @@ body {
 
 .overlay {
     position: absolute;
-    top: 14.5%;
+    top: 7%;
     width: 30rem;
     height: 30rem;
     border-radius: 1rem;
@@ -131,8 +131,8 @@ h1:hover, span:hover {
     cursor: pointer;
 }
 
-.figure:hover .overlay {
-    opacity: 20%;
+.figure:hover .overlay{
+    opacity: 50%;
 }
 
 footer {
